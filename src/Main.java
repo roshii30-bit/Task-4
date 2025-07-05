@@ -10,7 +10,7 @@ forward and backward.
 */
 import java.util.Scanner;
 public class Main {
-     static void PalindromeChecker() {
+     void PalindromeChecker() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please input the first string: ");
@@ -27,6 +27,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        PalindromeChecker();
+        Main main = new Main();
+        main.PalindromeChecker();
     }
 }
