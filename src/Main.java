@@ -13,12 +13,10 @@ public class Main {
      void PalindromeChecker() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please input the first string: ");
+        System.out.println("Please input a string: ");
         StringBuilder stringbuilder1 = new StringBuilder(scanner.nextLine());
-        System.out.println("Please input the second string: ");
-        StringBuilder stringbuilder2 = new StringBuilder(scanner.nextLine());
 
-        if (stringbuilder1.reverse().toString().contentEquals(stringbuilder2)){
+        if (stringbuilder1.reverse().toString().contentEquals(stringbuilder1)){
             System.out.println("The input string is a palindrome");
         }
         else {
